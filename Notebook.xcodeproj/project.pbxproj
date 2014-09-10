@@ -13,6 +13,7 @@
 		0798F71C194455670015CEC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0798F71A194455670015CEC3 /* Main.storyboard */; };
 		0798F71E194455670015CEC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0798F71D194455670015CEC3 /* Images.xcassets */; };
 		0798F72A194455670015CEC3 /* NotebookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0798F729194455670015CEC3 /* NotebookTests.m */; };
+		0798F7341944559B0015CEC3 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0798F7331944559B0015CEC3 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		0798F723194455670015CEC3 /* NotebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotebookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0798F728194455670015CEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0798F729194455670015CEC3 /* NotebookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotebookTests.m; sourceTree = "<group>"; };
+		0798F7331944559B0015CEC3 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0798F7341944559B0015CEC3 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +64,7 @@
 		0798F704194455670015CEC3 = {
 			isa = PBXGroup;
 			children = (
+				0798F7331944559B0015CEC3 /* libsqlite3.dylib */,
 				0798F70F194455670015CEC3 /* Notebook */,
 				0798F726194455670015CEC3 /* NotebookTests */,
 				0798F70E194455670015CEC3 /* Products */,
